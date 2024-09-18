@@ -55,7 +55,7 @@
     let pt = '', selectList = [], params = {}, mode = '', width = 800, pan = {}, color = '',
         doc = $(document), progress = {}, request = {}, ins = {}, idm = {};
     const scriptInfo = GM_info.script;
-    const version = scriptInfo.version;
+    const version = 'Tampermonkey BETA';
     const author = scriptInfo.author;
     const name = scriptInfo.name;
     const customClass = {
